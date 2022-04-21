@@ -11,6 +11,7 @@
     "sc",
     "--name",
     "sc-<your name>",
+    "-e",
     "SNPSLMD_LICENSE_FILE=27000@<license server>",
     "-e",
     "DISPLAY=${localEnv:ssh_client}:0.0"
