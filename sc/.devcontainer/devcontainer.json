@@ -13,7 +13,7 @@
     "sc-<your name>",
     "SNPSLMD_LICENSE_FILE=27000@<license server>",
     "-e",
-    "DISPLAY=<your device>:0.0"
+    "DISPLAY=${localEnv:ssh_client}:0.0"
   ],
   "remoteUser": "vscode"
 }
