@@ -1,11 +1,11 @@
-# Container for Synopsys SCL
+# Synopsys SCL Container
 
-- Place the license, C source file, installer and scl packages in the same directory as the Dockerfile.scl.
+- Place the license, C source file, installer and scl packages in the same directory as the Dockerfile.
 
 - Build the image
 
 ```shell
-$ docker build -t synopsys_scl:latest -f Dockerfile.scl .
+$ docker build -t synopsys_scl:latest -f Dockerfile .
 ```
 
 - Run the container

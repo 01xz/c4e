@@ -1,0 +1,19 @@
+{
+  "name": "sc",
+  "image": "sc:latest",
+  "settings": {},
+  "extensions": [],
+  "mounts": [
+    "source=/opt/synopsys,target=/opt/synopsys,type=bind,consistency=cached"
+  ],
+  "runArgs": [
+    "-h",
+    "sc",
+    "--name",
+    "sc-<your name>",
+    "SNPSLMD_LICENSE_FILE=27000@<license server>",
+    "-e",
+    "DISPLAY=<your device>:0.0"
+  ],
+  "remoteUser": "vscode"
+}
