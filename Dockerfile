@@ -7,6 +7,7 @@ ARG USER_GID=$USER_UID
 RUN yum -y update \
     && yum -y groupinstall "X Window System" \
     && yum -y install sudo perl csh libXScrnSaver compat-libtiff3 libmng libpng12 \
+    ksh glibc.i686 libXext.i686 libXtst.i686 libGLU glibc-devel redhat-lsb-core \
     && yum clean all \
     && groupadd --gid $USER_GID $USERNAME \
     && useradd --uid $USER_UID --gid $USER_GID -m $USERNAME \
