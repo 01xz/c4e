@@ -6,7 +6,7 @@
   "mounts": [
     "source=/opt/cadence,target=/opt/cadence,type=bind,consistency=cached",
     "source=/opt/mentor,target=/opt/mentor,type=bind,consistency=cached",
-    "source=/opt/synopsys,target=/opt/mentor,type=bind,consistency=cached",
+    "source=/opt/synopsys,target=/opt/synopsys,type=bind,consistency=cached",
     "source=/opt/pdks,target=/opt/pdks,type=bind,consistency=cached"
   ],
   "runArgs": [
