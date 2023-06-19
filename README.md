@@ -15,3 +15,5 @@ $ docker build -t c4e:latest -f Dockerfile .
 - enter the `c4e-workspace` directory;
 - edit `devcontainer.json` and `setup.sh` regarding your situation;
 - click `reopen in container` in VS Code.
+
+Due to end of life for CentOS 7, c4e will remain maintained until 30 June 2024.
