@@ -8,7 +8,8 @@ FROM base AS c4e
 
 RUN yum -y groupinstall "X Window System" \
     && yum -y install perl tcsh libXScrnSaver compat-libtiff3 libmng libpng12 \
-    ksh glibc.i686 glibc-devel libXext.i686 libXtst.i686 expat.i686 libGLU libXp redhat-lsb-core
+    ksh glibc.i686 glibc-devel libXext.i686 libXtst.i686 expat.i686 libGLU libXp redhat-lsb-core \
+    libXt.i686 libXp.i686 java-1.8.0-openjdk python python3
 
 FROM c4e AS c4e-dev
 
